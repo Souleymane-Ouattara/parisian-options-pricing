@@ -16,7 +16,7 @@ $$
 dS_t = rS_t\,dt + \sigma S_t\,dW_t,
 $$
 
-where \(S_0\) is the initial price, \(r\) the risk-free rate, and \(\sigma\) the volatility.
+where \(S_0\) is the initial price, \(r\) the risk-free rate, and $\sigma$ the volatility.
 
 ## Methods
 
