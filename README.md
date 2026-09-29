@@ -8,7 +8,7 @@ This academic project studies path-dependent options whose activation depends no
 
 ## Project scope
 
-The repository focuses on non-cumulative Parisian knock-in options. For an up-and-in contract, the option becomes active once the underlying remains above the barrier for at least a continuous window of length \(D\). The clock is reset whenever the underlying falls back below the barrier. The down-and-in case is defined symmetrically.
+The repository focuses on non-cumulative Parisian knock-in options. For an up-and-in contract, the option becomes active once the underlying remains above the barrier for at least a continuous window of length $D$. The clock is reset whenever the underlying falls back below the barrier. The down-and-in case is defined symmetrically.
 
 Under the risk-neutral measure, the underlying follows
 
@@ -16,7 +16,7 @@ $$
 dS_t = rS_t\,dt + \sigma S_t\,dW_t,
 $$
 
-where \(S_0\) is the initial price, \(r\) the risk-free rate, and $\sigma$ the volatility.
+where $S_0$ is the initial price, $r$ the risk-free rate, and $\sigma$ the volatility.
 
 ## Methods
 
