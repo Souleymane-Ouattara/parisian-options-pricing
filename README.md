@@ -31,24 +31,19 @@ where $S_0$ is the initial price, $r$ the risk-free rate, and $\sigma$ the volat
 
 ```text
 parisian-options-pricing/
+├── .gitignore
 ├── README.md
-├── LICENSE
 ├── pyproject.toml
-├── src/
-│   └── parisian_options/
-│       ├── __init__.py
-│       ├── binomial.py
-│       ├── trinomial.py
-│       ├── monte_carlo.py
-│       └── sequential_monte_carlo.py
-├── examples/
-│   └── compare_methods.py
-├── tests/
-│   ├── test_lattices.py
-│   ├── test_monte_carlo.py
-│   └── test_parity.py
-└── reports/
-    └── parisian_options_pricing_report.pdf
+├── reports/
+│   └── parisian_options_pricing_report.pdf
+└── src/
+    └── parisian_options/
+        ├── __init__.py
+        ├── binomial_model.py
+        ├── monter_carlo_method.py
+        ├── trinomial_tree_tian_model
+        ├── SMC_Knock_in_option_discrete
+        └── SMC_Knock_in_option_continuous_non_cumultative.py
 ```
 
 ## Installation
